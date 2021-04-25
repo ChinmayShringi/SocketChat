@@ -30,10 +30,6 @@ a {
 
 .btn {
 	cursor: pointer;
-	padding: 5px 15px;
-	background: var(--light-color);
-	color: var(--dark-color-a);
-	border: 0;
 	font-size: 17px;
 }
 
@@ -142,7 +138,6 @@ a {
 
 .join-main {
 	padding: 30px 40px;
-	background: var(--dark-color-b);
 }
 
 .join-main p {

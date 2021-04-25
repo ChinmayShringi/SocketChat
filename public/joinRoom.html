@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Canvas</title>
+  </head>
+  <body>
+    <nav style="background-color: #25D366;">
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo center"><i class="fas fa-align-justify"></i>Canvas</a>
+      </div>
+    </nav>
+    <div class="row" style="margin-left: 35%;margin-top: 50px;">
+      <div class="col" style="width: 500px;">
+        <div class="card-panel teal" style="padding:0px">
+          <span class="white-text">
+              <header class="join-header">
+                <h1><i class="fas fa-comments"></i>Canvas</h1>
+              </header>
+              <main class="join-main">
+                <form action="chat.html">
+                  <div class="form-control">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input
+                          id="username"
+                          name="username"
+                          type="text"
+						  autocomplete="off"
+                          class="validate"
+						  style="color: white;"
+                          required
+                        />
+                        <label for="username">Enter Username</label>
+                      </div>
+                    </div>
+                  </div>
+				  <div class="form-control">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input
+                          id="room"
+						  style="color: white;"
+                          name="room"
+                          type="text"
+						  autocomplete="off"
+                          class="validate"
+                          required
+                        />
+                        <label for="room">Enter Room</label>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn-primary btn">
+                    Join Chat
+                  </button>
+                </form>
+              </main>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
