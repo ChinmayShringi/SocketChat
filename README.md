@@ -3,7 +3,7 @@ The public folder contains the html css and js files. I have used maretialize th
 ## Development server
 
 Run `node server` or `nodemon` for a dev server. Navigate to `http://localhost:3000/`.
-## Build
+
 
 ## ScreenShots
 ## Home
